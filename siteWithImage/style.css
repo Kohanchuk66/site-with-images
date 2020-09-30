@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0 auto;
+    font-family: "Open Sans";
+}
+
+h1{
+    display: none;
+}
+
+.first-page{
+    background-image: url("images/header.png");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+footer{
+    background-color: #1ea78d;
+    height: 400px;
+}
+
+#logo{
+    color: white;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+}
+
+
+nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul{
+    list-style-type: none;
+}
+
+.first-page > nav > ul > li
+{
+    padding-top: 30px;
+    border-top: 1px;
+}
+
+.first-page > nav > ul,
+.first-page > nav > ul > li{
+    display: inline-block;
+    margin-right: 35px;
+    float: right;
+}
+
+.first-page > nav > ul{
+    margin-right: 10%;
+}
+
+.first-page > nav > ul > li:hover{
+    padding-top: 29px;
+    border-top: 1px solid #32b0ee;
+}
+
+.logo{
+    margin-left: 6%;
+    position: relative;
+    top: 30px;
+    font-size: 13px;
+    color: #565f60;
+}
+
+.main{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.dots{
+    float: right;
+    margin-top: 25%;
+}
+
+.contacts > li{
+    display: inline;
+}
+
+.contacts{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.main > h2{
+    font-size: 62px;
+    color: white;
+    font-weight: lighter;
+}
+
+.main > h3{
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.main > h4{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.main > h4::before{
+    content: "";
+    border-top: 1px solid #0feb9e;
+    width: 28px;
+}
+
+.green-text{
+    color: #10bd80;
+}
+
+.features{
+    height: 360px;
+    background: #f4f7f9;
+    text-align: center;
+    padding-top: 5%;
+}
+
+h2{
+    font-weight: bold;
+    color: #2eb99b;
+}
+
+.heart{
+    margin-top: 25px;
+}
+
+.heart::before,
+.heart::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    border-top: 2px solid #dce1e5;
+    margin-top: 8px;
+}
+.heart::before {
+    margin-left: -7%;
+}
+.heart::after {
+    margin-left: 1%;
+}
+
+.features-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.features-image{
+    display: inline-block;
+}
+
+.inline{
+    display: inline-block;
+}
